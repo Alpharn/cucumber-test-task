@@ -7,7 +7,7 @@ class LoginPage {
     }
   
     async getErrorMessageText() {
-      return await this.errorMessage.getText();
+      return this.errorMessage.getText();
     }
 }
 
